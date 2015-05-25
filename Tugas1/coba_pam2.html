@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Page Title</title><meta name="viewport" content="width=device-width, initial-scale=1"> 
+<link rel="stylesheet"href="http://code.jquery.com/mobile/1.2.0/jquery.mobile-1.2.0.min.css" />
+<script src="http://code.jquery.com/jquery-1.8.2.min.js"></script>
+<script src="http://code.jquery.com/mobile/1.2.0/jquery.mobile-1.2.0.min.js"></script>
+</head>
+<body>
+<div data-role="page" id="halaman1">
+	<div data-role="header"> 
+		<h1>Wisata Gunung Sekitar Salatiga</h1> 
+	</div>
+	<center><img src="gunung.jpg" style="width:720px;height:360px/></center>
+	<div style="text-align: center;">
+	<div data-role="content"> <a href="#page2">ENTER</a></div>
+	<div data-role="footer">    <h4></h4> </div>
+</div>
+
+<div data-role="page" id="page3">
+	<div data-role="header">   
+		<h1>Gunung Merbabu</h1> 
+	</div>
+<div style="text-align: center;"> 
+	<img src="merbabu.jpg" width="720" height="360" />
+</div>
+	<div data-role="content">  <p>Gunung Merbabu (Mt. Merbabu, 3142 Mdpl) merupakan sebuah gunung 
+	yang secara letak memiliki jarak tempuh paling dekat dari salatiga. 
+	Kota Salatiga juga berada di lereng gunung ini. Dengan ketinggian 
+	lebih dari 3000 m anda dapat menikmati pemandangan yang disajikan di atas gunung. Memiliki 3 puncak terpopuler yaitu Pn. Syarif, Kenteng Songo dan Trianggulasi</div>
+	<div data-role="footer">   
+		<h4><a href="#page2"><li>Back</a></h4> 
+	</div>
+</div>
+
+<div data-role="page" id="page4">
+	<div data-role="header">   
+		<h1>Gunung Andong</h1> 
+	</div>
+<div style="text-align: center;"> 
+	<img src="andong.jpg" width="720" height="360" />
+</div>
+	<div data-role="content">  <p>Gunung Andong (Mt. Andong, 2160 Mdpl) merupakan gunung yang terletak diantara 2 desa 
+	yaitu Desa Kalipancur dan Desa Ngablak Kec. Magelang yang berada sekitar 20 KM dari Kota Salatiga. Karena memiliki 
+	jalur yang mudah untuk didaki selama kurun waktu 2 tahun Gunung ini menjadi populer di kalangan anak-anak muda bukan 
+	hanya dari Jawa Tengah namun juga dari provinsi lain.</div>
+	<div data-role="footer">   
+		<h4><a href="#page2"><li>Back</a></h4> 
+	</div>
+</div>
+
+<div data-role="page" id="page5">
+	<div data-role="header">   
+		<h1>Gunung Telomoyo</h1> 
+	</div>
+<div style="text-align: center;"> 
+	<img src="jogan.jpg" width="720" height="360" />
+</div>
+	<div data-role="content">  <p>Gunung Telomoyo (Mt. Telomoyo, 2565 Mdpl) merupakan gunung yang cukup istimewa karena 
+	dapat didaki menggunakan mobil dan motor sampai puncak. Gunung ini menjadi sarana untuk sinyal Antena BTS Televisi yang 
+	diedarkan ke daerah di sekitar gunung tersebut. Tidak perlu tenaga banyak untuk sampai ke puncak gunung telomoyo. 
+	Cukup sediakan uang bensin dan kendaraan yang tahan banting :)</div>
+	<div data-role="footer">   
+		<h4><a href="#page2"><li>Kembali</a></h4> 
+	</div>
+</div>
+
+<div data-role="page" id="page2">
+	<div data-role="header">   
+		<h1>Wisata Gunung Sekitar Salatiga</h1> 
+	</div>
+<div data-role="content">
+	<ul data-role="listview" data-inset="true" >
+
+		<a href="#page3"><li>Gunung Merbabu</a><img src="merbabu.jpg"  width="240" height="200"/></li></a>
+		<a href="#page4"><li>Gunung Andong</a><img src="andong.jpg" width="240" height="200" /></li></a>
+		<a href="#page5"><li>Gunung Telomoyo</a><img src="telomoyo.jpg" width="240" height="200"/></li></a>
+	</ul>
+<div data-role="footer" style="text-align: right;"> 
+	<a href="#halaman1">Kembali Ke Halaman Awal</a> </div>
+
+</div>
+</body>
+</html>
